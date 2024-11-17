@@ -1,1 +1,21 @@
-1
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ev-care
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ev-care
+  template:
+    metadata:
+      labels:
+        app: ev-care
+    spec:
+      containers:
+      - name: ev-care
+        image: ev-care:latest
+        ports:
+        - containerPort: 5000
+                
