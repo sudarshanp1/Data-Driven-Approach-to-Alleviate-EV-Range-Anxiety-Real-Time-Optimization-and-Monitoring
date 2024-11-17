@@ -1,0 +1,41 @@
+# General dependencies
+pandas==1.5.0
+numpy==1.23.4
+scikit-learn==1.0.2
+matplotlib==3.6.0
+seaborn==0.11.2
+requests==2.28.1
+boto3==1.18.0  # AWS SDK for Python
+
+# Data Ingestion & Streaming (Kafka)
+kafka-python==2.0.2
+confluent-kafka==2.0.2
+
+# Data Processing (Spark)
+pyspark==3.3.1
+
+# ETL and orchestration (Airflow)
+apache-airflow==2.4.1
+apache-airflow-providers-amazon==2.3.0
+apache-airflow-providers-postgres==2.3.0
+
+# AWS Lambda and Integration
+aws-lambda-powertools==1.22.0  # For Lambda logging, metrics, etc.
+
+# Docker support (if using Python SDK in Docker containers)
+docker==5.0.0
+
+
+# PostGIS (Geospatial data processing - if relevant)
+psycopg2-binary==2.9.10
+
+
+# Machine Learning Models and Optimization
+tensorflow==2.10.0  # for LSTM or other deep learning models
+#keras==2.10.0
+#xgboost==1.7.0  # For any boosting-based models
+#optuna==2.10.0  # Hyperparameter optimization
+
+# Data Cleaning & Transformation
+pyarrow==10.0.0  # For efficient data processing
+dask==2022.11.0  # Parallel computing for big data processing
