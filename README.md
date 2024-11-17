@@ -11,3 +11,5 @@ Predictive route recommendations based on energy consumption forecasts.
 Charging station availability management for efficient trip planning. 
 
 Built using Docker, Kubernetes, and AWS Lambda, EV-CARE is designed to ensure scalability and reliability. By equipping drivers and fleet operators with advanced tools for efficient EV management, the platform aims to enhance the reliability of EV usage and accelerate the transition to electric mobility. 
+
+# Project Architecture
