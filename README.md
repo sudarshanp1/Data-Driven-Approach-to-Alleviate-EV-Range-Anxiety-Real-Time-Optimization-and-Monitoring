@@ -21,6 +21,7 @@ Built using Docker, Kubernetes, and AWS Lambda, EV-CARE is designed to ensure sc
 # Project Architecture
 
 ![image](https://github.com/user-attachments/assets/b230a86a-929b-4a6c-b17f-e2e5afbad49d)
+
 ![image](https://github.com/user-attachments/assets/ba3e9cd6-fd3c-4318-82f0-211ebacc081b)
 Core Idea: Multifaceted Solutions to Overcome Electric Vehicle Challenges 
 
